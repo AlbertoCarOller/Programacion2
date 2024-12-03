@@ -23,8 +23,8 @@ public class Ejercicio3 {
             int temp = num;
 
             while (temp != 0) {
-                int calc = temp / 10;
-                temp = calc;
+                int div = temp / 10;
+                temp = div;
                 contador++;
             }
             System.out.println(num + " tiene " + contador + " cifras");
